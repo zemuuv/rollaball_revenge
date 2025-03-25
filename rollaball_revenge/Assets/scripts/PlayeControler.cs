@@ -113,6 +113,9 @@ public class PlayeControler : MonoBehaviour
             systemaParticulasN.Play();
             audioRecoleccion.Play();
         }
+        if (other.gameObject.CompareTag("final")){
+            Debug.Log("el juego ha terminado");
+        }
         
          Debug.Log("puntos totales "+ Contador);
     }

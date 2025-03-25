@@ -8,6 +8,7 @@ TagManager:
   - RecolectableP
   - RecolectableN
   - Jugador
+  - final
   layers:
   - Default
   - TransparentFX
